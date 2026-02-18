@@ -3,9 +3,8 @@
 An interactive AI chatbot built using **Streamlit**, **Google Gemini API**, and **LangChain**.  
 This project demonstrates how to integrate large language models into a web-based chat interface with prompt management and conversational memory.
 
----
 
-## 🚀 Features
+# 🚀 Features
 
 - 💬 Real-time conversational chatbot UI
 - 🧠 Powered by Google Gemini (LLM)
@@ -14,9 +13,8 @@ This project demonstrates how to integrate large language models into a web-base
 - 🔐 Secure API key handling using environment variables
 - ♻️ Conversation memory support (optional)
 
----
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 - **Frontend**: Streamlit  
 - **LLM**: Google Gemini API  
@@ -24,9 +22,8 @@ This project demonstrates how to integrate large language models into a web-base
 - **Language**: Python  
 - **Environment Management**: `.env` file  
 
----
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 main.py # Main Streamlit application
 ├── chatbot.py # LangChain + Gemini logic
@@ -37,21 +34,19 @@ main.py # Main Streamlit application
 
 
 
----
-
-## 🔑 Prerequisites
+# 🔑 Prerequisites
 
 - Python 3.9 or above
 - Google Gemini API key
 - Basic knowledge of Python and LLMs
 
----
 
-## 📦 Installation
+
+# 📦 Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/streamlit-gemini-chatbot.git
+   git clone https://github.com/HamzaAnsari8/streamlit-gemini-chatbot.git
    cd streamlit_chatbot
 
 2. creating venv
@@ -63,7 +58,7 @@ venv\Scripts\activate         # For Windows
 pip install -r requirements.txt
 
 4.storing API key
-GOOGLE_API_KEY=your_gemini_api_key_here
+GOOGLE_API_KEY="your_gemini_api_key_here"
 
 5.runs the application
 streamlit run main.py
